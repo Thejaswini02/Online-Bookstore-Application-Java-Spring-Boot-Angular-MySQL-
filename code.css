@@ -1,0 +1,28 @@
+OnlineBookstore/
+├── backend/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/bookstore/
+│   │   │   │   ├── BookstoreApplication.java
+│   │   │   │   ├── controller/
+│   │   │   │   │   ├── BookController.java
+│   │   │   │   ├── model/
+│   │   │   │   │   ├── Book.java
+│   │   │   │   ├── repository/
+│   │   │   │   │   ├── BookRepository.java
+│   │   │   │   ├── service/
+│   │   │   │   │   ├── BookService.java
+│   │   └── resources/
+│   │       ├── application.properties
+└── frontend/
+    ├── src/
+    │   ├── app/
+    │   │   ├── book/
+    │   │   │   ├── book.component.ts
+    │   │   │   ├── book.component.html
+    │   │   │   ├── book.service.ts
+    │   │   │   ├── book.model.ts
+    │   │   ├── app.component.ts
+    │   │   ├── app.module.ts
+    │   ├── index.html
+    ├── angular.json
